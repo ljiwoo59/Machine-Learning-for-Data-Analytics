@@ -30,9 +30,16 @@ clf2 = DecisionTreeClassifier(criterion="entropy", max_depth=4)
 clf2 = clf2.fit(X_train, y_train)
 y_pred2 = clf2.predict(X_test)
 
-# model accuracy
+# evaluation
 print("Accuracy for gini index: ", metrics.accuracy_score(y_test, y_pred))
+print("Classification report: ", metrics.classification_report(y_test, y_pred))
+print("Confusion matrix: ", metrics.confusion_matrix(y_test, y_pred))
+print("Log loss: ", metrics.log_loss(y_test, y_pred))
+
 print("Accuracy for information gain with max depth 4: ", metrics.accuracy_score(y_test, y_pred2))
+print("Classification report: ", metrics.classification_report(y_test, y_pred2))
+print("Confusion matrix: ", metrics.confusion_matrix(y_test, y_pred2))
+print("Log loss: ", metrics.log_loss(y_test, y_pred2))
 
 # visualizing tree
 dot_data = tree.export_graphviz(clf, out_file=None,
