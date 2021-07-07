@@ -1,6 +1,9 @@
 # Machine-Learning-for-Data-Analytics
 
-Learning algorithm induces function *f* using training data, and *f* will be evaluated on test set. 
+Learning algorithm induces function *f* using training data, and *f* will be evaluated on test set.
+
+## Supervised Learning Model
+The algorithm learns on a labeled dataset and evaluates its accuracy on training data.
 
 **Regression**
 * Predict a real value.
@@ -9,12 +12,62 @@ Learning algorithm induces function *f* using training data, and *f* will be eva
 * Predict a simple yes/no response.
 
 **Multiclass Classification**
-* Put an example into one of a number of classes. (Genre…)
+* Put an example into one of a number of classes. (Genre...)
 
 **Ranking**
 * Put a set of objects in order of relevance.
 
+---
+
+## Unsupervised Learning Model
+The training dataset is a collection of examples without a specific desired outcome or correct answer.  
+The algorithm discovers hidden patterns or data groupings.
+
+**Clustering**
+* Group unlabeled data based on their similarities or differences.
+
+**Association Rules**
+* Find relationships between variables in given dataset. (Market basket analysis...)
+
+**Dimensionality Reduction**
+* Reduce the number of data inputs to a manageable size while also preserving the integrity of the dataset as much as possible.
+
+---
+
+## Semi-Supervised Learning Model
+The training dataset is both labeled and unlabeled data.
+
+---
+
+## Regression: Linear Regression
+
+## Regression: Gradient Descent
+
+## Classification: K-Nearest Neighbors
+
 ## [Classification: Decision Tree](https://github.com/ljiwoo59/DT)
+
+## Classification: Naive Bayesian
+
+## Classification: Logistic Regression and Perceptron
+
+## Classification: Support Vector Machines
+
+## Classification: Ensemble Learning
+
+## Clustering: K-means Clustering
+
+## Clustering: Hierarchical Clustering
+
+## Clustering: Density-based Clustering
+
+## Dimensionality Reduction
+
+## Deep Learning: Backpropagation
+
+## Deep Learning: CNN and RNN
+
+## Deep Learning: Representation Learning
 
 ## Evaluation
 
